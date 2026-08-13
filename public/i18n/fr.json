@@ -1,2 +1,22 @@
 {
+  "hero": {
+    "tagline": "Des experts à vos côtés quand vous en avez besoin.",
+    "description": "SCSI accompagne les équipes qui manquent de ressources en développement logiciel — avec des consultants expérimentés, disponibles rapidement."
+  },
+  "services": {
+    "title": "Ce que nous faisons",
+    "augmentation": {
+      "title": "Renfort d'équipe",
+      "description": "Vous avez un projet mais pas assez de développeurs? Nous intégrons nos consultants directement dans vos équipes."
+    },
+    "consulting": {
+      "title": "Conseil en TI",
+      "description": "Architecture, revue de code, choix technologiques — nous vous aidons à prendre les bonnes décisions."
+    }
+  },
+  "contact": {
+    "title": "Nous joindre",
+    "description": "Une question? Un projet? Écrivez-nous.",
+    "email": "info@scsi.ca"
+  }
 }

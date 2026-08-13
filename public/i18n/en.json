@@ -1,2 +1,22 @@
 {
+  "hero": {
+    "tagline": "Expert support, right when you need it.",
+    "description": "SCSI steps in when your team needs more hands on deck — experienced consultants, ready to integrate quickly."
+  },
+  "services": {
+    "title": "What we do",
+    "augmentation": {
+      "title": "Team augmentation",
+      "description": "Not enough developers for your project? We embed our consultants directly into your teams."
+    },
+    "consulting": {
+      "title": "IT consulting",
+      "description": "Architecture, code reviews, tech choices — we help you make the right calls."
+    }
+  },
+  "contact": {
+    "title": "Get in touch",
+    "description": "A question? A project? Drop us a line.",
+    "email": "info@scsi.ca"
+  }
 }
