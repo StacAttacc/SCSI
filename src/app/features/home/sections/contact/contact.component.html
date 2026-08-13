@@ -1,0 +1,12 @@
+<section class="py-24 px-6 bg-base-200">
+  <div class="max-w-xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">{{ 'contact.title' | transloco }}</h2>
+    <p class="text-base-content/70 text-lg mb-8">{{ 'contact.description' | transloco }}</p>
+    <a
+      [href]="'mailto:' + ('contact.email' | transloco)"
+      class="btn btn-primary btn-lg"
+    >
+      {{ 'contact.email' | transloco }}
+    </a>
+  </div>
+</section>
