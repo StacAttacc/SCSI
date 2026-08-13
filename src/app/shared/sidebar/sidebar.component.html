@@ -1,0 +1,22 @@
+@if (sidebar.isOpen()) {
+  <div class="fixed inset-0 bg-black/20 z-40" (click)="sidebar.close()"></div>
+}
+
+<div
+  class="fixed top-0 right-0 h-full w-64 bg-base-100 shadow-xl z-50 flex flex-col p-6 transition-transform duration-300"
+  [class.translate-x-full]="!sidebar.isOpen()"
+>
+  <div class="flex justify-end mb-8">
+    <button class="btn btn-ghost btn-square btn-sm" (click)="sidebar.close()" aria-label="Fermer">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+
+  <div class="flex gap-1">
+    <button class="btn btn-ghost btn-sm" [class.font-bold]="activeLang === 'fr'" [disabled]="activeLang === 'fr'" (click)="setLang('fr')">FR</button>
+    <span class="self-center text-base-content/40">|</span>
+    <button class="btn btn-ghost btn-sm" [class.font-bold]="activeLang === 'en'" [disabled]="activeLang === 'en'" (click)="setLang('en')">EN</button>
+  </div>
+</div>
