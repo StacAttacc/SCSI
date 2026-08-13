@@ -14,9 +14,15 @@
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
             nodejs_22
-            nodePackages.npm
-            nodePackages."@angular/cli"
           ];
+
+          shellHook = ''
+            export NPM_CONFIG_PREFIX="$HOME/.npm-global"
+            export PATH="$HOME/.npm-global/bin:$PWD/node_modules/.bin:$PATH"
+            if ! command -v ng &> /dev/null; then
+              npm install -g @angular/cli
+            fi
+          '';
         };
       });
 }
