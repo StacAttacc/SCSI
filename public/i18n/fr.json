@@ -1,7 +1,23 @@
 {
   "hero": {
-    "tagline": "Des experts à vos côtés quand vous en avez besoin.",
-    "description": "SCSI accompagne les équipes qui manquent de ressources en développement logiciel — avec des consultants expérimentés, disponibles rapidement."
+    "tagline": "L'expertise d'un grand cabinet, la proximité d'une petite équipe.",
+    "description": "SCSI offre des services-conseils en TI avec la rigueur des grandes firmes — et l'accessibilité d'une équipe que vous connaissez vraiment.",
+    "cta": "En savoir plus"
+  },
+  "why": {
+    "title": "Pourquoi SCSI",
+    "consultant": {
+      "title": "Vous connaissez votre consultant",
+      "description": "Pas de rotation d'équipe, pas de surprise. Vous travaillez avec les mêmes personnes du début à la fin."
+    },
+    "expertise": {
+      "title": "Expertise de terrain",
+      "description": "Nos consultants viennent de grandes firmes. Ils apportent cette rigueur dans un contexte plus humain."
+    },
+    "direct": {
+      "title": "Communication directe",
+      "description": "Une petite équipe, c'est des décisions rapides et un accès direct à ceux qui font le travail."
+    }
   },
   "services": {
     "title": "Ce que nous faisons",

@@ -1,7 +1,23 @@
 {
   "hero": {
-    "tagline": "Expert support, right when you need it.",
-    "description": "SCSI steps in when your team needs more hands on deck — experienced consultants, ready to integrate quickly."
+    "tagline": "Big-firm expertise. Boutique-firm closeness.",
+    "description": "SCSI delivers IT consulting with the rigour of large firms — and the accessibility of a team you actually know.",
+    "cta": "Learn more"
+  },
+  "why": {
+    "title": "Why SCSI",
+    "consultant": {
+      "title": "You know your consultant",
+      "description": "No rotating teams, no surprises. You work with the same people from start to finish."
+    },
+    "expertise": {
+      "title": "Field expertise",
+      "description": "Our consultants come from large firms. They bring that rigour to a more human setting."
+    },
+    "direct": {
+      "title": "Direct communication",
+      "description": "A small team means fast decisions and direct access to the people doing the work."
+    }
   },
   "services": {
     "title": "What we do",
