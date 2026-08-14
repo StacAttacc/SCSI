@@ -1,15 +1,20 @@
 <section
   class="hero min-h-screen"
-  style="background-image: url('https://picsum.photos/seed/scsi/1920/1080');"
+  style="
+    background-color: #0f172a;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(148, 163, 184, 0.12) 1px, transparent 0),
+      radial-gradient(ellipse 80% 60% at 50% 40%, rgba(99, 102, 241, 0.15) 0%, transparent 70%);
+    background-size: 32px 32px, 100% 100%;
+  "
 >
-  <div class="hero-overlay bg-opacity-65"></div>
   <div class="hero-content text-center text-neutral-content max-w-2xl">
     <div>
       <h1 class="text-6xl font-bold tracking-tight mb-2">SCSI</h1>
-      <p class="text-base uppercase tracking-widest mb-8 opacity-70">Services Conseils Sensaroli Inc.</p>
+      <p class="text-base uppercase tracking-widest mb-8 opacity-50">Services Conseils Sensaroli Inc.</p>
       <p class="text-2xl font-medium mb-4">{{ 'hero.tagline' | transloco }}</p>
-      <p class="text-lg mb-10 opacity-80">{{ 'hero.description' | transloco }}</p>
-      <a href="#pourquoi" class="btn btn-primary btn-lg">
+      <p class="text-lg mb-10 opacity-70">{{ 'hero.description' | transloco }}</p>
+      <a href="#pourquoi" class="btn btn-outline btn-lg text-neutral-content border-neutral-content/40 hover:bg-neutral-content/10 hover:border-neutral-content hover:text-neutral-content">
         {{ 'hero.cta' | transloco }}
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />

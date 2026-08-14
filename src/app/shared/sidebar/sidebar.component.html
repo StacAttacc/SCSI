@@ -14,9 +14,23 @@
     </button>
   </div>
 
-  <div class="flex gap-1">
-    <button class="btn btn-ghost btn-sm" [class.font-bold]="activeLang === 'fr'" [disabled]="activeLang === 'fr'" (click)="setLang('fr')">FR</button>
-    <span class="self-center text-base-content/40">|</span>
-    <button class="btn btn-ghost btn-sm" [class.font-bold]="activeLang === 'en'" [disabled]="activeLang === 'en'" (click)="setLang('en')">EN</button>
+  <div class="flex flex-col gap-6">
+    <a
+      href="https://open-payrun.vercel.app"
+      target="_blank"
+      rel="noopener"
+      class="btn btn-ghost justify-start"
+      (click)="sidebar.close()"
+    >
+      {{ 'nav.projects' | transloco }}
+    </a>
+
+    <div class="divider my-0"></div>
+
+    <div class="flex gap-1">
+      <button class="btn btn-ghost btn-sm" [class.font-bold]="activeLang === 'fr'" [disabled]="activeLang === 'fr'" (click)="setLang('fr')">FR</button>
+      <span class="self-center text-base-content/40">|</span>
+      <button class="btn btn-ghost btn-sm" [class.font-bold]="activeLang === 'en'" [disabled]="activeLang === 'en'" (click)="setLang('en')">EN</button>
+    </div>
   </div>
 </div>

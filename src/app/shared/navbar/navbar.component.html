@@ -10,10 +10,27 @@
       </svg>
     </button>
   } @else {
-    <div class="flex gap-1">
-      <button class="btn btn-ghost btn-sm" [class.font-bold]="activeLang === 'fr'" [disabled]="activeLang === 'fr'" (click)="setLang('fr')">FR</button>
-      <span class="self-center text-base-content/40">|</span>
-      <button class="btn btn-ghost btn-sm" [class.font-bold]="activeLang === 'en'" [disabled]="activeLang === 'en'" (click)="setLang('en')">EN</button>
+    <div class="flex items-center gap-4">
+      <div class="dropdown dropdown-end">
+        <div tabindex="0" role="button" class="btn btn-ghost btn-sm">
+          {{ 'nav.projects' | transloco }}
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+        <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-10 w-52 p-2 shadow-md">
+          <li>
+            <a href="https://open-payrun.vercel.app" target="_blank" rel="noopener">
+              OpenPayrun
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex gap-1">
+        <button class="btn btn-ghost btn-sm" [class.font-bold]="activeLang === 'fr'" [disabled]="activeLang === 'fr'" (click)="setLang('fr')">FR</button>
+        <span class="self-center text-base-content/40">|</span>
+        <button class="btn btn-ghost btn-sm" [class.font-bold]="activeLang === 'en'" [disabled]="activeLang === 'en'" (click)="setLang('en')">EN</button>
+      </div>
     </div>
   }
 </nav>

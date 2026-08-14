@@ -1,10 +1,11 @@
 import { Component, inject } from '@angular/core';
-import { TranslocoService } from '@jsverse/transloco';
+import { TranslocoService, TranslocoModule } from '@jsverse/transloco';
 import { BreakpointService } from '../../core/breakpoint.service';
 import { SidebarService } from '../../core/sidebar.service';
 
 @Component({
   selector: 'app-navbar',
+  imports: [TranslocoModule],
   templateUrl: './navbar.component.html',
 })
 export class NavbarComponent {

@@ -30,13 +30,8 @@
       "description": "Architecture, code reviews, tech choices — we help you make the right calls."
     }
   },
-  "projects": {
-    "title": "Our projects",
-    "openPayrun": {
-      "title": "OpenPayrun",
-      "description": "Quebec payroll deduction calculator — RRQ, AE, RQAP, federal and provincial taxes. Free.",
-      "cta": "View project"
-    }
+  "nav": {
+    "projects": "Projects"
   },
   "contact": {
     "title": "Get in touch",

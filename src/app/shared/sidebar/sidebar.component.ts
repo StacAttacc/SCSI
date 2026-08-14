@@ -1,9 +1,10 @@
 import { Component, inject } from '@angular/core';
-import { TranslocoService } from '@jsverse/transloco';
+import { TranslocoService, TranslocoModule } from '@jsverse/transloco';
 import { SidebarService } from '../../core/sidebar.service';
 
 @Component({
   selector: 'app-sidebar',
+  imports: [TranslocoModule],
   templateUrl: './sidebar.component.html',
 })
 export class SidebarComponent {
