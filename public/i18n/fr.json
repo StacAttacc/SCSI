@@ -30,6 +30,14 @@
       "description": "Architecture, revue de code, choix technologiques — nous vous aidons à prendre les bonnes décisions."
     }
   },
+  "projects": {
+    "title": "Nos projets",
+    "openPayrun": {
+      "title": "OpenPayrun",
+      "description": "Calculateur de retenues à la source pour la paie québécoise — RRQ, AE, RQAP, impôt fédéral et provincial. Gratuit.",
+      "cta": "Voir le projet"
+    }
+  },
   "contact": {
     "title": "Nous joindre",
     "description": "Une question? Un projet? Écrivez-nous.",
