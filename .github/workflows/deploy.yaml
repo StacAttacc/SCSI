@@ -26,3 +26,4 @@ jobs:
           action: upload
           app_location: /
           output_location: dist/scsi-landing-page/browser
+          skip_app_build: true
